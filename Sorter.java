@@ -32,7 +32,7 @@ public class Sorter {
 
     }
 
-    public static void sort() {
-        insertionSort(array);
+    public static void sort(int[] array) {
+        selectionSort(array);
     }
 }
